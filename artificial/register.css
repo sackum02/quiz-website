@@ -1,0 +1,86 @@
+body{
+    background-image: url("Css/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black;
+    height: 100px;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-color: cadetblue;
+    
+}
+
+input[type="text"]
+input[type="password"]
+input[type="textarea"]
+input[type="date"]
+input[type="tel"]
+input[type="email"]
+input[type="submit"]
+
+{
+    padding: 50px;
+    border: 12px;
+    border-radius: 10px;
+    width: 0px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: xx-large;
+    
+}
+input[type="submit"]{
+    color:black;
+    background-color:green;
+    text-align: center;  
+    width: 1000px;
+    border-radius: 5px;  
+
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+#Main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+#regi{
+    width: 50%;
+    background-color: aqua;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:left;
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+     padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    border-style: solid;
+
+}
+.space{
+    width: 300px;
+    height: 25px;
+}
+.Text{
+    font-size: larger;
+}
+
+h1{
+    color: red;
+    font-size: 60px;
+}
+
+.link:hover{
+    color: brown;
+}

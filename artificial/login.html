@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <h1>Login</h1>
+    <div id="regi">
+        <form onsubmit="login()">
+            <small><span id="error" style="color: red"></span></small>
+            <label for="email">User Id:</label>
+            <br>
+            <input id="email" class="space" type="email" name="email" id="">
+            <br><br>
+            <label for="password">Password:</label>
+            <br>
+            <input id="password" class="space" type="password" name="password" id="">
+            <br><br>
+            <label for="Submit"></label>
+            <input class="Text" type="submit" name="submit" value="Sign In">
+            <br>
+            <span>
+                <a class="link" href="#" onclick="forgotPass()">Forgot Password ? </a>
+                <a class="link" href="register.html"> Register here </a>
+            </span>
+
+        </form>
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="index.js"></script>
+    <script src="firebase.js"></script>
+</body>
+
+</html>
